@@ -1,0 +1,9 @@
+export { platformDescription } from './platform';
+export { grantOffersDescription } from './grant-offers';
+export { paymentInstrumentGroupsDescription } from './payment-instrument-groups';
+export { accountHoldersDescription } from './account-holders';
+export { paymentInstrumentsDescription } from './payment-instruments';
+export { grantAccountsDescription } from './grant-accounts';
+export { bankAccountValidationDescription } from './bank-account-validation';
+export { balanceAccountsDescription } from './balance-accounts';
+export { transactionRulesDescription } from './transaction-rules';
