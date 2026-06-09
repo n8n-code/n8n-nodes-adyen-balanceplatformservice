@@ -15,8 +15,8 @@ export const platformDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Balance Platforms Id",
-					"value": "Get Balance Platforms Id",
+					"name": "Get Balance Platforms ID",
+					"value": "Get Balance Platforms ID",
 					"action": "Get a balance platform",
 					"description": "Returns a balance platform.",
 					"routing": {
@@ -27,8 +27,8 @@ export const platformDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Balance Platforms Id Account Holders",
-					"value": "Get Balance Platforms Id Account Holders",
+					"name": "Get Balance Platforms ID Account Holders",
+					"value": "Get Balance Platforms ID Account Holders",
 					"action": "Get all account holders under a balance platform",
 					"description": "Returns a paginated list of all the account holders that belong to the balance platform. To fetch multiple pages, use the query parameters. \n\nFor example, to limit the page to 5 account holders and to skip the first 20, use `/balancePlatforms/{id}/accountHolders?limit=5&offset=20`.",
 					"routing": {
@@ -55,13 +55,13 @@ export const platformDescription: INodeProperties[] = [
 						"Platform"
 					],
 					"operation": [
-						"Get Balance Platforms Id"
+						"Get Balance Platforms ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The unique identifier of the balance platform.",
@@ -73,7 +73,7 @@ export const platformDescription: INodeProperties[] = [
 						"Platform"
 					],
 					"operation": [
-						"Get Balance Platforms Id"
+						"Get Balance Platforms ID"
 					]
 				}
 			}
@@ -98,7 +98,7 @@ export const platformDescription: INodeProperties[] = [
 						"Platform"
 					],
 					"operation": [
-						"Get Balance Platforms Id"
+						"Get Balance Platforms ID"
 					]
 				}
 			}
@@ -123,7 +123,7 @@ export const platformDescription: INodeProperties[] = [
 						"Platform"
 					],
 					"operation": [
-						"Get Balance Platforms Id"
+						"Get Balance Platforms ID"
 					]
 				}
 			}
@@ -142,13 +142,13 @@ export const platformDescription: INodeProperties[] = [
 						"Platform"
 					],
 					"operation": [
-						"Get Balance Platforms Id Account Holders"
+						"Get Balance Platforms ID Account Holders"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The unique identifier of the balance platform.",
@@ -160,7 +160,7 @@ export const platformDescription: INodeProperties[] = [
 						"Platform"
 					],
 					"operation": [
-						"Get Balance Platforms Id Account Holders"
+						"Get Balance Platforms ID Account Holders"
 					]
 				}
 			}
@@ -185,7 +185,7 @@ export const platformDescription: INodeProperties[] = [
 						"Platform"
 					],
 					"operation": [
-						"Get Balance Platforms Id Account Holders"
+						"Get Balance Platforms ID Account Holders"
 					]
 				}
 			}
@@ -210,7 +210,7 @@ export const platformDescription: INodeProperties[] = [
 						"Platform"
 					],
 					"operation": [
-						"Get Balance Platforms Id Account Holders"
+						"Get Balance Platforms ID Account Holders"
 					]
 				}
 			}
@@ -235,7 +235,7 @@ export const platformDescription: INodeProperties[] = [
 						"Platform"
 					],
 					"operation": [
-						"Get Balance Platforms Id Account Holders"
+						"Get Balance Platforms ID Account Holders"
 					]
 				}
 			}
@@ -260,7 +260,7 @@ export const platformDescription: INodeProperties[] = [
 						"Platform"
 					],
 					"operation": [
-						"Get Balance Platforms Id Account Holders"
+						"Get Balance Platforms ID Account Holders"
 					]
 				}
 			}

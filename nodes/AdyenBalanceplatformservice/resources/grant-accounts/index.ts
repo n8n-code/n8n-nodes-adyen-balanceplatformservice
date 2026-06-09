@@ -15,8 +15,8 @@ export const grantAccountsDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Grant Accounts Id",
-					"value": "Get Grant Accounts Id",
+					"name": "Get Grant Accounts ID",
+					"value": "Get Grant Accounts ID",
 					"action": "Get a grant account",
 					"description": "Returns the details of the [grant account](https://docs.adyen.com/marketplaces-and-platforms/capital#grant-account).",
 					"routing": {
@@ -43,13 +43,13 @@ export const grantAccountsDescription: INodeProperties[] = [
 						"Grant Accounts"
 					],
 					"operation": [
-						"Get Grant Accounts Id"
+						"Get Grant Accounts ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The unique identifier of the grant account.",
@@ -61,7 +61,7 @@ export const grantAccountsDescription: INodeProperties[] = [
 						"Grant Accounts"
 					],
 					"operation": [
-						"Get Grant Accounts Id"
+						"Get Grant Accounts ID"
 					]
 				}
 			}
@@ -86,7 +86,7 @@ export const grantAccountsDescription: INodeProperties[] = [
 						"Grant Accounts"
 					],
 					"operation": [
-						"Get Grant Accounts Id"
+						"Get Grant Accounts ID"
 					]
 				}
 			}
@@ -111,7 +111,7 @@ export const grantAccountsDescription: INodeProperties[] = [
 						"Grant Accounts"
 					],
 					"operation": [
-						"Get Grant Accounts Id"
+						"Get Grant Accounts ID"
 					]
 				}
 			}

@@ -11,14 +11,14 @@ import { transactionRulesDescription } from './resources/transaction-rules';
 
 export class AdyenBalanceplatformservice implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'adyen-balanceplatformservice',
+		displayName: 'Adyen Balanceplatformservice',
 		name: 'N8nDevAdyenBalanceplatformservice',
 		icon: { light: 'file:./adyen-balanceplatformservice.png', dark: 'file:./adyen-balanceplatformservice.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Configuration API enables you to create a platform where you can onboard your users as account holders and create balance accounts, cards, and business accounts',
-		defaults: { name: 'adyen-balanceplatformservice' },
+		description: 'Configuration API enables user onboarding, balance accounts, cards, and business accounts.',
+		defaults: { name: 'Adyen Balanceplatformservice' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

@@ -27,8 +27,8 @@ export const accountHoldersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Account Holders Id",
-					"value": "Get Account Holders Id",
+					"name": "Get Account Holders ID",
+					"value": "Get Account Holders ID",
 					"action": "Get an account holder",
 					"description": "Returns an account holder.",
 					"routing": {
@@ -39,8 +39,8 @@ export const accountHoldersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Account Holders Id",
-					"value": "Patch Account Holders Id",
+					"name": "Patch Account Holders ID",
+					"value": "Patch Account Holders ID",
 					"action": "Update an account holder",
 					"description": "Updates an account holder. When updating an account holder resource, if a parameter is not provided in the request, it is left unchanged.",
 					"routing": {
@@ -51,8 +51,8 @@ export const accountHoldersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Account Holders Id Balance Accounts",
-					"value": "Get Account Holders Id Balance Accounts",
+					"name": "Get Account Holders ID Balance Accounts",
+					"value": "Get Account Holders ID Balance Accounts",
 					"action": "Get all balance accounts of an account holder",
 					"description": "Returns a paginated list of the balance accounts associated with an account holder. To fetch multiple pages, use the query parameters. \n\nFor example, to limit the page to 5 balance accounts and skip the first 10, use `/accountHolders/{id}/balanceAccounts?limit=5&offset=10`.",
 					"routing": {
@@ -186,7 +186,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Legal Entity Id",
+			"displayName": "Legal Entity ID",
 			"name": "legalEntityId",
 			"type": "string",
 			"default": "",
@@ -324,13 +324,13 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Get Account Holders Id"
+						"Get Account Holders ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The unique identifier of the account holder.",
@@ -342,7 +342,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Get Account Holders Id"
+						"Get Account Holders ID"
 					]
 				}
 			}
@@ -367,7 +367,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Get Account Holders Id"
+						"Get Account Holders ID"
 					]
 				}
 			}
@@ -392,7 +392,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Get Account Holders Id"
+						"Get Account Holders ID"
 					]
 				}
 			}
@@ -411,13 +411,13 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Patch Account Holders Id"
+						"Patch Account Holders ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The unique identifier of the account holder.",
@@ -429,7 +429,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Patch Account Holders Id"
+						"Patch Account Holders ID"
 					]
 				}
 			}
@@ -454,7 +454,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Patch Account Holders Id"
+						"Patch Account Holders ID"
 					]
 				}
 			}
@@ -479,7 +479,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Patch Account Holders Id"
+						"Patch Account Holders ID"
 					]
 				}
 			}
@@ -504,7 +504,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Patch Account Holders Id"
+						"Patch Account Holders ID"
 					]
 				}
 			}
@@ -529,14 +529,14 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Patch Account Holders Id"
+						"Patch Account Holders ID"
 					]
 				}
 			}
 		},
 		{
 			"required": true,
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -555,14 +555,14 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Patch Account Holders Id"
+						"Patch Account Holders ID"
 					]
 				}
 			}
 		},
 		{
 			"required": true,
-			"displayName": "Legal Entity Id",
+			"displayName": "Legal Entity ID",
 			"name": "legalEntityId",
 			"type": "string",
 			"default": "",
@@ -581,7 +581,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Patch Account Holders Id"
+						"Patch Account Holders ID"
 					]
 				}
 			}
@@ -606,7 +606,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Patch Account Holders Id"
+						"Patch Account Holders ID"
 					]
 				}
 			}
@@ -631,7 +631,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Patch Account Holders Id"
+						"Patch Account Holders ID"
 					]
 				}
 			}
@@ -674,7 +674,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Patch Account Holders Id"
+						"Patch Account Holders ID"
 					]
 				}
 			}
@@ -699,7 +699,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Patch Account Holders Id"
+						"Patch Account Holders ID"
 					]
 				}
 			}
@@ -724,7 +724,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Patch Account Holders Id"
+						"Patch Account Holders ID"
 					]
 				}
 			}
@@ -749,7 +749,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Patch Account Holders Id"
+						"Patch Account Holders ID"
 					]
 				}
 			}
@@ -774,7 +774,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Patch Account Holders Id"
+						"Patch Account Holders ID"
 					]
 				}
 			}
@@ -793,13 +793,13 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Get Account Holders Id Balance Accounts"
+						"Get Account Holders ID Balance Accounts"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The unique identifier of the account holder.",
@@ -811,7 +811,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Get Account Holders Id Balance Accounts"
+						"Get Account Holders ID Balance Accounts"
 					]
 				}
 			}
@@ -836,7 +836,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Get Account Holders Id Balance Accounts"
+						"Get Account Holders ID Balance Accounts"
 					]
 				}
 			}
@@ -861,7 +861,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Get Account Holders Id Balance Accounts"
+						"Get Account Holders ID Balance Accounts"
 					]
 				}
 			}
@@ -886,7 +886,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Get Account Holders Id Balance Accounts"
+						"Get Account Holders ID Balance Accounts"
 					]
 				}
 			}
@@ -911,7 +911,7 @@ export const accountHoldersDescription: INodeProperties[] = [
 						"Account Holders"
 					],
 					"operation": [
-						"Get Account Holders Id Balance Accounts"
+						"Get Account Holders ID Balance Accounts"
 					]
 				}
 			}

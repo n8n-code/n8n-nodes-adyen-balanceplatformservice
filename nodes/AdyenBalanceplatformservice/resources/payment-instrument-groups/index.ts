@@ -27,8 +27,8 @@ export const paymentInstrumentGroupsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Payment Instrument Groups Id",
-					"value": "Get Payment Instrument Groups Id",
+					"name": "Get Payment Instrument Groups ID",
+					"value": "Get Payment Instrument Groups ID",
 					"action": "Get a payment instrument group",
 					"description": "Returns the details of a payment instrument group.",
 					"routing": {
@@ -39,8 +39,8 @@ export const paymentInstrumentGroupsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Payment Instrument Groups Id Transaction Rules",
-					"value": "Get Payment Instrument Groups Id Transaction Rules",
+					"name": "Get Payment Instrument Groups ID Transaction Rules",
+					"value": "Get Payment Instrument Groups ID Transaction Rules",
 					"action": "Get all transaction rules for a payment instrument group",
 					"description": "Returns a list of all the transaction rules associated with a payment instrument group.",
 					"routing": {
@@ -263,13 +263,13 @@ export const paymentInstrumentGroupsDescription: INodeProperties[] = [
 						"Payment Instrument Groups"
 					],
 					"operation": [
-						"Get Payment Instrument Groups Id"
+						"Get Payment Instrument Groups ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The unique identifier of the payment instrument group.",
@@ -281,7 +281,7 @@ export const paymentInstrumentGroupsDescription: INodeProperties[] = [
 						"Payment Instrument Groups"
 					],
 					"operation": [
-						"Get Payment Instrument Groups Id"
+						"Get Payment Instrument Groups ID"
 					]
 				}
 			}
@@ -306,7 +306,7 @@ export const paymentInstrumentGroupsDescription: INodeProperties[] = [
 						"Payment Instrument Groups"
 					],
 					"operation": [
-						"Get Payment Instrument Groups Id"
+						"Get Payment Instrument Groups ID"
 					]
 				}
 			}
@@ -331,7 +331,7 @@ export const paymentInstrumentGroupsDescription: INodeProperties[] = [
 						"Payment Instrument Groups"
 					],
 					"operation": [
-						"Get Payment Instrument Groups Id"
+						"Get Payment Instrument Groups ID"
 					]
 				}
 			}
@@ -350,13 +350,13 @@ export const paymentInstrumentGroupsDescription: INodeProperties[] = [
 						"Payment Instrument Groups"
 					],
 					"operation": [
-						"Get Payment Instrument Groups Id Transaction Rules"
+						"Get Payment Instrument Groups ID Transaction Rules"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The unique identifier of the payment instrument group.",
@@ -368,7 +368,7 @@ export const paymentInstrumentGroupsDescription: INodeProperties[] = [
 						"Payment Instrument Groups"
 					],
 					"operation": [
-						"Get Payment Instrument Groups Id Transaction Rules"
+						"Get Payment Instrument Groups ID Transaction Rules"
 					]
 				}
 			}
@@ -393,7 +393,7 @@ export const paymentInstrumentGroupsDescription: INodeProperties[] = [
 						"Payment Instrument Groups"
 					],
 					"operation": [
-						"Get Payment Instrument Groups Id Transaction Rules"
+						"Get Payment Instrument Groups ID Transaction Rules"
 					]
 				}
 			}
@@ -418,7 +418,7 @@ export const paymentInstrumentGroupsDescription: INodeProperties[] = [
 						"Payment Instrument Groups"
 					],
 					"operation": [
-						"Get Payment Instrument Groups Id Transaction Rules"
+						"Get Payment Instrument Groups ID Transaction Rules"
 					]
 				}
 			}

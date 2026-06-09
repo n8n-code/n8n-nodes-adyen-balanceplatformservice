@@ -27,8 +27,8 @@ export const grantOffersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Grant Offers Grant Offer Id",
-					"value": "Get Grant Offers Grant Offer Id",
+					"name": "Get Grant Offers Grant Offer ID",
+					"value": "Get Grant Offers Grant Offer ID",
 					"action": "Get a grant offer",
 					"description": "Returns the details of a single grant offer.",
 					"routing": {
@@ -61,7 +61,7 @@ export const grantOffersDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Holder Id",
+			"displayName": "Account Holder ID",
 			"name": "accountHolderId",
 			"required": true,
 			"description": "The unique identifier of the grant account.",
@@ -150,13 +150,13 @@ export const grantOffersDescription: INodeProperties[] = [
 						"Grant Offers"
 					],
 					"operation": [
-						"Get Grant Offers Grant Offer Id"
+						"Get Grant Offers Grant Offer ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Grant Offer Id",
+			"displayName": "Grant Offer ID",
 			"name": "grantOfferId",
 			"required": true,
 			"description": "The unique identifier of the grant offer.",
@@ -168,7 +168,7 @@ export const grantOffersDescription: INodeProperties[] = [
 						"Grant Offers"
 					],
 					"operation": [
-						"Get Grant Offers Grant Offer Id"
+						"Get Grant Offers Grant Offer ID"
 					]
 				}
 			}
@@ -193,7 +193,7 @@ export const grantOffersDescription: INodeProperties[] = [
 						"Grant Offers"
 					],
 					"operation": [
-						"Get Grant Offers Grant Offer Id"
+						"Get Grant Offers Grant Offer ID"
 					]
 				}
 			}
@@ -218,7 +218,7 @@ export const grantOffersDescription: INodeProperties[] = [
 						"Grant Offers"
 					],
 					"operation": [
-						"Get Grant Offers Grant Offer Id"
+						"Get Grant Offers Grant Offer ID"
 					]
 				}
 			}

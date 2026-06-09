@@ -53,17 +53,90 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Platform | Get a balance platform, Get all account holders under a balance platform |
-| Grant Offers | Get all available grant offers, Get a grant offer |
-| Payment Instrument Groups | Post create a payment instrument group, Get a payment instrument group, Get all transaction rules for a payment instrument group |
-| Account Holders | Post create an account holder, Get an account holder, Patch update an account holder, Get all balance accounts of an account holder |
-| Payment Instruments | Post create a payment instrument, Get a payment instrument, Patch update a payment instrument, Get the pan of a payment instrument, Get all transaction rules for a payment instrument |
-| Grant Accounts | Get a grant account |
-| Bank Account Validation | Post validate a bank account |
-| Balance Accounts | Post create a balance account, Get all sweeps for a balance account, Post create a sweep, Delete a sweep, Get a sweep, Patch update a sweep, Get a balance account, Patch update a balance account, Get all payment instruments for a balance account |
-| Transaction Rules | Post create a transaction rule, Delete a transaction rule, Get a transaction rule, Patch update a transaction rule |
+<details>
+<summary><b>Platform</b> (2 operations)</summary>
+
+- Get a balance platform
+- Get all account holders under a balance platform
+
+</details>
+
+<details>
+<summary><b>Grant Offers</b> (2 operations)</summary>
+
+- Get all available grant offers
+- Get a grant offer
+
+</details>
+
+<details>
+<summary><b>Payment Instrument Groups</b> (3 operations)</summary>
+
+- Post Create a payment instrument group
+- Get a payment instrument group
+- Get all transaction rules for a payment instrument group
+
+</details>
+
+<details>
+<summary><b>Account Holders</b> (4 operations)</summary>
+
+- Post Create an account holder
+- Get an account holder
+- Patch Update an account holder
+- Get all balance accounts of an account holder
+
+</details>
+
+<details>
+<summary><b>Payment Instruments</b> (5 operations)</summary>
+
+- Post Create a payment instrument
+- Get a payment instrument
+- Patch Update a payment instrument
+- Get the PAN of a payment instrument
+- Get all transaction rules for a payment instrument
+
+</details>
+
+<details>
+<summary><b>Grant Accounts</b> (1 operations)</summary>
+
+- Get a grant account
+
+</details>
+
+<details>
+<summary><b>Bank Account Validation</b> (1 operations)</summary>
+
+- Post Validate a bank account
+
+</details>
+
+<details>
+<summary><b>Balance Accounts</b> (9 operations)</summary>
+
+- Post Create a balance account
+- Get all sweeps for a balance account
+- Post Create a sweep
+- Delete a sweep
+- Get a sweep
+- Patch Update a sweep
+- Get a balance account
+- Patch Update a balance account
+- Get all payment instruments for a balance account
+
+</details>
+
+<details>
+<summary><b>Transaction Rules</b> (4 operations)</summary>
+
+- Post Create a transaction rule
+- Delete a transaction rule
+- Get a transaction rule
+- Patch Update a transaction rule
+
+</details>
 
 ---
 

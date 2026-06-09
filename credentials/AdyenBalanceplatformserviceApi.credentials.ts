@@ -8,7 +8,7 @@ import type {
 export class AdyenBalanceplatformserviceApi implements ICredentialType {
 	name = 'N8nDevAdyenBalanceplatformserviceApi';
 
-	displayName = 'adyen-balanceplatformservice API';
+	displayName = 'Adyen Balanceplatformservice API';
 
 	icon: Icon = { light: 'file:../nodes/AdyenBalanceplatformservice/adyen-balanceplatformservice.png', dark: 'file:../nodes/AdyenBalanceplatformservice/adyen-balanceplatformservice.dark.png' };
 
@@ -22,7 +22,7 @@ export class AdyenBalanceplatformserviceApi implements ICredentialType {
 			default: 'https://balanceplatform-api-test.adyen.com/bcl/v2',
 			required: true,
 			placeholder: 'https://balanceplatform-api-test.adyen.com/bcl/v2',
-			description: 'The base URL of your adyen-balanceplatformservice API server',
+			description: 'The base URL of your Adyen Balanceplatformservice API server',
 		},
 		{
 			displayName: 'API Key',

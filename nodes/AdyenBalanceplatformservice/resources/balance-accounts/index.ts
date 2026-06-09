@@ -27,8 +27,8 @@ export const balanceAccountsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Balance Accounts Balance Account Id Sweeps",
-					"value": "Get Balance Accounts Balance Account Id Sweeps",
+					"name": "Get Balance Accounts Balance Account ID Sweeps",
+					"value": "Get Balance Accounts Balance Account ID Sweeps",
 					"action": "Get all sweeps for a balance account",
 					"description": "Returns a list of the sweeps configured for a balance account.\n\nTo fetch multiple pages, use the query parameters. For example, to limit the page to 5 sweeps and to skip the first 10, use `/balanceAccounts/{balanceAccountId}/sweeps?limit=5&offset=10`.",
 					"routing": {
@@ -39,8 +39,8 @@ export const balanceAccountsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Balance Accounts Balance Account Id Sweeps",
-					"value": "Post Balance Accounts Balance Account Id Sweeps",
+					"name": "Post Balance Accounts Balance Account ID Sweeps",
+					"value": "Post Balance Accounts Balance Account ID Sweeps",
 					"action": "Create a sweep",
 					"description": "Creates a sweep that results in moving funds from or to a balance account.\n\nA sweep pulls in or pushes out funds based on a defined schedule, amount, currency, and a source or a destination.",
 					"routing": {
@@ -51,8 +51,8 @@ export const balanceAccountsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Delete Balance Accounts Balance Account Id Sweeps Sweep Id",
-					"value": "Delete Balance Accounts Balance Account Id Sweeps Sweep Id",
+					"name": "Delete Balance Accounts Balance Account ID Sweeps Sweep ID",
+					"value": "Delete Balance Accounts Balance Account ID Sweeps Sweep ID",
 					"action": "Delete a sweep",
 					"description": "Deletes a sweep for a balance account.",
 					"routing": {
@@ -63,8 +63,8 @@ export const balanceAccountsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Balance Accounts Balance Account Id Sweeps Sweep Id",
-					"value": "Get Balance Accounts Balance Account Id Sweeps Sweep Id",
+					"name": "Get Balance Accounts Balance Account ID Sweeps Sweep ID",
+					"value": "Get Balance Accounts Balance Account ID Sweeps Sweep ID",
 					"action": "Get a sweep",
 					"description": "Returns a sweep.",
 					"routing": {
@@ -75,8 +75,8 @@ export const balanceAccountsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Balance Accounts Balance Account Id Sweeps Sweep Id",
-					"value": "Patch Balance Accounts Balance Account Id Sweeps Sweep Id",
+					"name": "Patch Balance Accounts Balance Account ID Sweeps Sweep ID",
+					"value": "Patch Balance Accounts Balance Account ID Sweeps Sweep ID",
 					"action": "Update a sweep",
 					"description": "Updates a sweep. When updating a sweep resource, note that if a request parameter is not provided, the parameter is left unchanged.",
 					"routing": {
@@ -87,8 +87,8 @@ export const balanceAccountsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Balance Accounts Id",
-					"value": "Get Balance Accounts Id",
+					"name": "Get Balance Accounts ID",
+					"value": "Get Balance Accounts ID",
 					"action": "Get a balance account",
 					"description": "Returns a balance account and its balances for the default currency and other currencies with a non-zero balance.",
 					"routing": {
@@ -99,8 +99,8 @@ export const balanceAccountsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Balance Accounts Id",
-					"value": "Patch Balance Accounts Id",
+					"name": "Patch Balance Accounts ID",
+					"value": "Patch Balance Accounts ID",
 					"action": "Update a balance account",
 					"description": "Updates a balance account.",
 					"routing": {
@@ -111,8 +111,8 @@ export const balanceAccountsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Balance Accounts Id Payment Instruments",
-					"value": "Get Balance Accounts Id Payment Instruments",
+					"name": "Get Balance Accounts ID Payment Instruments",
+					"value": "Get Balance Accounts ID Payment Instruments",
 					"action": "Get all payment instruments for a balance account",
 					"description": "Returns a paginated list of the payment instruments associated with a balance account. \n\nTo fetch multiple pages, use the query parameters.For example, to limit the page to 3 payment instruments and to skip the first 6, use `/balanceAccounts/{id}/paymentInstruments?limit=3&offset=6`.",
 					"routing": {
@@ -146,7 +146,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Account Holder Id",
+			"displayName": "Account Holder ID",
 			"name": "accountHolderId",
 			"type": "string",
 			"default": "",
@@ -334,13 +334,13 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Balance Account Id Sweeps"
+						"Get Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Balance Account Id",
+			"displayName": "Balance Account ID",
 			"name": "balanceAccountId",
 			"required": true,
 			"description": "The unique identifier of the balance account.",
@@ -352,7 +352,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Balance Account Id Sweeps"
+						"Get Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -377,7 +377,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Balance Account Id Sweeps"
+						"Get Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -402,7 +402,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Balance Account Id Sweeps"
+						"Get Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -427,7 +427,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Balance Account Id Sweeps"
+						"Get Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -452,7 +452,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Balance Account Id Sweeps"
+						"Get Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -471,13 +471,13 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Post Balance Accounts Balance Account Id Sweeps"
+						"Post Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Balance Account Id",
+			"displayName": "Balance Account ID",
 			"name": "balanceAccountId",
 			"required": true,
 			"description": "The unique identifier of the balance account.",
@@ -489,7 +489,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Post Balance Accounts Balance Account Id Sweeps"
+						"Post Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -528,7 +528,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Post Balance Accounts Balance Account Id Sweeps"
+						"Post Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -554,7 +554,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Post Balance Accounts Balance Account Id Sweeps"
+						"Post Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -580,7 +580,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Post Balance Accounts Balance Account Id Sweeps"
+						"Post Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -605,14 +605,14 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Post Balance Accounts Balance Account Id Sweeps"
+						"Post Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
 		},
 		{
 			"required": true,
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -631,7 +631,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Post Balance Accounts Balance Account Id Sweeps"
+						"Post Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -656,7 +656,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Post Balance Accounts Balance Account Id Sweeps"
+						"Post Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -735,7 +735,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Post Balance Accounts Balance Account Id Sweeps"
+						"Post Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -760,7 +760,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Post Balance Accounts Balance Account Id Sweeps"
+						"Post Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -795,7 +795,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Post Balance Accounts Balance Account Id Sweeps"
+						"Post Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -820,7 +820,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Post Balance Accounts Balance Account Id Sweeps"
+						"Post Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -845,7 +845,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Post Balance Accounts Balance Account Id Sweeps"
+						"Post Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -870,7 +870,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Post Balance Accounts Balance Account Id Sweeps"
+						"Post Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -905,7 +905,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Post Balance Accounts Balance Account Id Sweeps"
+						"Post Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -930,7 +930,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Post Balance Accounts Balance Account Id Sweeps"
+						"Post Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -955,7 +955,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Post Balance Accounts Balance Account Id Sweeps"
+						"Post Balance Accounts Balance Account ID Sweeps"
 					]
 				}
 			}
@@ -974,13 +974,13 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Delete Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Delete Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Balance Account Id",
+			"displayName": "Balance Account ID",
 			"name": "balanceAccountId",
 			"required": true,
 			"description": "The unique identifier of the balance account.",
@@ -992,13 +992,13 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Delete Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Delete Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Sweep Id",
+			"displayName": "Sweep ID",
 			"name": "sweepId",
 			"required": true,
 			"description": "The unique identifier of the sweep.",
@@ -1010,7 +1010,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Delete Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Delete Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1035,7 +1035,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Delete Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Delete Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1060,7 +1060,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Delete Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Delete Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1079,13 +1079,13 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Get Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Balance Account Id",
+			"displayName": "Balance Account ID",
 			"name": "balanceAccountId",
 			"required": true,
 			"description": "The unique identifier of the balance account.",
@@ -1097,13 +1097,13 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Get Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Sweep Id",
+			"displayName": "Sweep ID",
 			"name": "sweepId",
 			"required": true,
 			"description": "The unique identifier of the sweep.",
@@ -1115,7 +1115,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Get Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1140,7 +1140,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Get Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1165,7 +1165,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Get Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1184,13 +1184,13 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Patch Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Balance Account Id",
+			"displayName": "Balance Account ID",
 			"name": "balanceAccountId",
 			"required": true,
 			"description": "The unique identifier of the balance account.",
@@ -1202,13 +1202,13 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Patch Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Sweep Id",
+			"displayName": "Sweep ID",
 			"name": "sweepId",
 			"required": true,
 			"description": "The unique identifier of the sweep.",
@@ -1220,7 +1220,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Patch Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1259,7 +1259,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Patch Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1285,7 +1285,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Patch Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1311,7 +1311,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Patch Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1336,14 +1336,14 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Patch Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
 		},
 		{
 			"required": true,
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -1362,7 +1362,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Patch Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1387,7 +1387,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Patch Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1466,7 +1466,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Patch Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1491,7 +1491,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Patch Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1526,7 +1526,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Patch Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1551,7 +1551,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Patch Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1576,7 +1576,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Patch Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1601,7 +1601,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Patch Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1636,7 +1636,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Patch Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1661,7 +1661,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Patch Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1686,7 +1686,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Balance Account Id Sweeps Sweep Id"
+						"Patch Balance Accounts Balance Account ID Sweeps Sweep ID"
 					]
 				}
 			}
@@ -1705,13 +1705,13 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Id"
+						"Get Balance Accounts ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The unique identifier of the balance account.",
@@ -1723,7 +1723,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Id"
+						"Get Balance Accounts ID"
 					]
 				}
 			}
@@ -1748,7 +1748,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Id"
+						"Get Balance Accounts ID"
 					]
 				}
 			}
@@ -1773,7 +1773,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Id"
+						"Get Balance Accounts ID"
 					]
 				}
 			}
@@ -1792,13 +1792,13 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Id"
+						"Patch Balance Accounts ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The unique identifier of the balance account.",
@@ -1810,13 +1810,13 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Id"
+						"Patch Balance Accounts ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Account Holder Id",
+			"displayName": "Account Holder ID",
 			"name": "accountHolderId",
 			"type": "string",
 			"default": "",
@@ -1835,7 +1835,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Id"
+						"Patch Balance Accounts ID"
 					]
 				}
 			}
@@ -1860,7 +1860,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Id"
+						"Patch Balance Accounts ID"
 					]
 				}
 			}
@@ -1885,7 +1885,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Id"
+						"Patch Balance Accounts ID"
 					]
 				}
 			}
@@ -1910,7 +1910,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Id"
+						"Patch Balance Accounts ID"
 					]
 				}
 			}
@@ -1953,7 +1953,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Id"
+						"Patch Balance Accounts ID"
 					]
 				}
 			}
@@ -1978,7 +1978,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Id"
+						"Patch Balance Accounts ID"
 					]
 				}
 			}
@@ -2003,7 +2003,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Id"
+						"Patch Balance Accounts ID"
 					]
 				}
 			}
@@ -2028,7 +2028,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Patch Balance Accounts Id"
+						"Patch Balance Accounts ID"
 					]
 				}
 			}
@@ -2047,13 +2047,13 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Id Payment Instruments"
+						"Get Balance Accounts ID Payment Instruments"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The unique identifier of the balance account.",
@@ -2065,7 +2065,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Id Payment Instruments"
+						"Get Balance Accounts ID Payment Instruments"
 					]
 				}
 			}
@@ -2090,7 +2090,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Id Payment Instruments"
+						"Get Balance Accounts ID Payment Instruments"
 					]
 				}
 			}
@@ -2115,7 +2115,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Id Payment Instruments"
+						"Get Balance Accounts ID Payment Instruments"
 					]
 				}
 			}
@@ -2140,7 +2140,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Id Payment Instruments"
+						"Get Balance Accounts ID Payment Instruments"
 					]
 				}
 			}
@@ -2165,7 +2165,7 @@ export const balanceAccountsDescription: INodeProperties[] = [
 						"Balance Accounts"
 					],
 					"operation": [
-						"Get Balance Accounts Id Payment Instruments"
+						"Get Balance Accounts ID Payment Instruments"
 					]
 				}
 			}

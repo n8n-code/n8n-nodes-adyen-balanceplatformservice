@@ -27,8 +27,8 @@ export const transactionRulesDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Delete Transaction Rules Transaction Rule Id",
-					"value": "Delete Transaction Rules Transaction Rule Id",
+					"name": "Delete Transaction Rules Transaction Rule ID",
+					"value": "Delete Transaction Rules Transaction Rule ID",
 					"action": "Delete a transaction rule",
 					"description": "Deletes a transaction rule.",
 					"routing": {
@@ -39,8 +39,8 @@ export const transactionRulesDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Transaction Rules Transaction Rule Id",
-					"value": "Get Transaction Rules Transaction Rule Id",
+					"name": "Get Transaction Rules Transaction Rule ID",
+					"value": "Get Transaction Rules Transaction Rule ID",
 					"action": "Get a transaction rule",
 					"description": "Returns the details of a transaction rule.",
 					"routing": {
@@ -51,8 +51,8 @@ export const transactionRulesDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Transaction Rules Transaction Rule Id",
-					"value": "Patch Transaction Rules Transaction Rule Id",
+					"name": "Patch Transaction Rules Transaction Rule ID",
+					"value": "Patch Transaction Rules Transaction Rule ID",
 					"action": "Update a transaction rule",
 					"description": "Updates a transaction rule. \n\n* To update only the status of a transaction rule, send only the `status` parameter. All other parameters not provided in the request are left unchanged.\n\n* When updating any other parameter, you need to send all existing resource parameters. If you omit a parameter in the request, that parameter is removed from the resource.",
 					"routing": {
@@ -531,13 +531,13 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Delete Transaction Rules Transaction Rule Id"
+						"Delete Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Transaction Rule Id",
+			"displayName": "Transaction Rule ID",
 			"name": "transactionRuleId",
 			"required": true,
 			"description": "The unique identifier of the transaction rule.",
@@ -549,7 +549,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Delete Transaction Rules Transaction Rule Id"
+						"Delete Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -574,7 +574,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Delete Transaction Rules Transaction Rule Id"
+						"Delete Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -599,7 +599,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Delete Transaction Rules Transaction Rule Id"
+						"Delete Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -618,13 +618,13 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Get Transaction Rules Transaction Rule Id"
+						"Get Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Transaction Rule Id",
+			"displayName": "Transaction Rule ID",
 			"name": "transactionRuleId",
 			"required": true,
 			"description": "The unique identifier of the transaction rule.",
@@ -636,7 +636,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Get Transaction Rules Transaction Rule Id"
+						"Get Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -661,7 +661,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Get Transaction Rules Transaction Rule Id"
+						"Get Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -686,7 +686,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Get Transaction Rules Transaction Rule Id"
+						"Get Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -705,13 +705,13 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Patch Transaction Rules Transaction Rule Id"
+						"Patch Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Transaction Rule Id",
+			"displayName": "Transaction Rule ID",
 			"name": "transactionRuleId",
 			"required": true,
 			"description": "The unique identifier of the transaction rule.",
@@ -723,7 +723,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Patch Transaction Rules Transaction Rule Id"
+						"Patch Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -748,7 +748,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Patch Transaction Rules Transaction Rule Id"
+						"Patch Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -774,7 +774,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Patch Transaction Rules Transaction Rule Id"
+						"Patch Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -799,7 +799,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Patch Transaction Rules Transaction Rule Id"
+						"Patch Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -825,7 +825,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Patch Transaction Rules Transaction Rule Id"
+						"Patch Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -851,7 +851,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Patch Transaction Rules Transaction Rule Id"
+						"Patch Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -886,7 +886,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Patch Transaction Rules Transaction Rule Id"
+						"Patch Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -912,7 +912,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Patch Transaction Rules Transaction Rule Id"
+						"Patch Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -951,7 +951,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Patch Transaction Rules Transaction Rule Id"
+						"Patch Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -977,7 +977,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Patch Transaction Rules Transaction Rule Id"
+						"Patch Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -1002,7 +1002,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Patch Transaction Rules Transaction Rule Id"
+						"Patch Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -1027,7 +1027,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Patch Transaction Rules Transaction Rule Id"
+						"Patch Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -1062,7 +1062,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Patch Transaction Rules Transaction Rule Id"
+						"Patch Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -1106,7 +1106,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Patch Transaction Rules Transaction Rule Id"
+						"Patch Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -1131,7 +1131,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Patch Transaction Rules Transaction Rule Id"
+						"Patch Transaction Rules Transaction Rule ID"
 					]
 				}
 			}
@@ -1156,7 +1156,7 @@ export const transactionRulesDescription: INodeProperties[] = [
 						"Transaction Rules"
 					],
 					"operation": [
-						"Patch Transaction Rules Transaction Rule Id"
+						"Patch Transaction Rules Transaction Rule ID"
 					]
 				}
 			}

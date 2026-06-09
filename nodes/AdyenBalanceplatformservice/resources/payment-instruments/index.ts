@@ -27,8 +27,8 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Payment Instruments Id",
-					"value": "Get Payment Instruments Id",
+					"name": "Get Payment Instruments ID",
+					"value": "Get Payment Instruments ID",
 					"action": "Get a payment instrument",
 					"description": "Returns the details of a payment instrument.",
 					"routing": {
@@ -39,8 +39,8 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Payment Instruments Id",
-					"value": "Patch Payment Instruments Id",
+					"name": "Patch Payment Instruments ID",
+					"value": "Patch Payment Instruments ID",
 					"action": "Update a payment instrument",
 					"description": "Updates a payment instrument. Once a payment instrument is already active, you can only update its status. However, for cards created with **inactive** status, you can still update the balance account associated with the card.",
 					"routing": {
@@ -51,8 +51,8 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Payment Instruments Id Reveal",
-					"value": "Get Payment Instruments Id Reveal",
+					"name": "Get Payment Instruments ID Reveal",
+					"value": "Get Payment Instruments ID Reveal",
 					"action": "Get the PAN of a payment instrument",
 					"description": "Returns the primary account number (PAN) of a payment instrument.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/issuing/manage-access/api-credentials-web-service#api-permissions):\n\n* Balance Platform BCL PCI role",
 					"routing": {
@@ -63,8 +63,8 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Payment Instruments Id Transaction Rules",
-					"value": "Get Payment Instruments Id Transaction Rules",
+					"name": "Get Payment Instruments ID Transaction Rules",
+					"value": "Get Payment Instruments ID Transaction Rules",
 					"action": "Get all transaction rules for a payment instrument",
 					"description": "Returns a list of transaction rules associated with a payment instrument.",
 					"routing": {
@@ -98,7 +98,7 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Balance Account Id",
+			"displayName": "Balance Account ID",
 			"name": "balanceAccountId",
 			"type": "string",
 			"default": "",
@@ -199,7 +199,7 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Payment Instrument Group Id",
+			"displayName": "Payment Instrument Group ID",
 			"name": "paymentInstrumentGroupId",
 			"type": "string",
 			"default": "",
@@ -450,13 +450,13 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Get Payment Instruments Id"
+						"Get Payment Instruments ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The unique identifier of the payment instrument.",
@@ -468,7 +468,7 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Get Payment Instruments Id"
+						"Get Payment Instruments ID"
 					]
 				}
 			}
@@ -493,7 +493,7 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Get Payment Instruments Id"
+						"Get Payment Instruments ID"
 					]
 				}
 			}
@@ -518,7 +518,7 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Get Payment Instruments Id"
+						"Get Payment Instruments ID"
 					]
 				}
 			}
@@ -537,13 +537,13 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Patch Payment Instruments Id"
+						"Patch Payment Instruments ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The unique identifier of the payment instrument.",
@@ -555,13 +555,13 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Patch Payment Instruments Id"
+						"Patch Payment Instruments ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Balance Account Id",
+			"displayName": "Balance Account ID",
 			"name": "balanceAccountId",
 			"type": "string",
 			"default": "",
@@ -580,7 +580,7 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Patch Payment Instruments Id"
+						"Patch Payment Instruments ID"
 					]
 				}
 			}
@@ -605,7 +605,7 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Patch Payment Instruments Id"
+						"Patch Payment Instruments ID"
 					]
 				}
 			}
@@ -648,7 +648,7 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Patch Payment Instruments Id"
+						"Patch Payment Instruments ID"
 					]
 				}
 			}
@@ -673,7 +673,7 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Patch Payment Instruments Id"
+						"Patch Payment Instruments ID"
 					]
 				}
 			}
@@ -732,7 +732,7 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Patch Payment Instruments Id"
+						"Patch Payment Instruments ID"
 					]
 				}
 			}
@@ -757,7 +757,7 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Patch Payment Instruments Id"
+						"Patch Payment Instruments ID"
 					]
 				}
 			}
@@ -782,7 +782,7 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Patch Payment Instruments Id"
+						"Patch Payment Instruments ID"
 					]
 				}
 			}
@@ -801,13 +801,13 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Get Payment Instruments Id Reveal"
+						"Get Payment Instruments ID Reveal"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The unique identifier of the payment instrument.",
@@ -819,7 +819,7 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Get Payment Instruments Id Reveal"
+						"Get Payment Instruments ID Reveal"
 					]
 				}
 			}
@@ -844,7 +844,7 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Get Payment Instruments Id Reveal"
+						"Get Payment Instruments ID Reveal"
 					]
 				}
 			}
@@ -869,7 +869,7 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Get Payment Instruments Id Reveal"
+						"Get Payment Instruments ID Reveal"
 					]
 				}
 			}
@@ -888,13 +888,13 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Get Payment Instruments Id Transaction Rules"
+						"Get Payment Instruments ID Transaction Rules"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The unique identifier of the payment instrument.",
@@ -906,7 +906,7 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Get Payment Instruments Id Transaction Rules"
+						"Get Payment Instruments ID Transaction Rules"
 					]
 				}
 			}
@@ -931,7 +931,7 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Get Payment Instruments Id Transaction Rules"
+						"Get Payment Instruments ID Transaction Rules"
 					]
 				}
 			}
@@ -956,7 +956,7 @@ export const paymentInstrumentsDescription: INodeProperties[] = [
 						"Payment Instruments"
 					],
 					"operation": [
-						"Get Payment Instruments Id Transaction Rules"
+						"Get Payment Instruments ID Transaction Rules"
 					]
 				}
 			}
