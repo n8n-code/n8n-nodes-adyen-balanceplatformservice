@@ -10,32 +10,32 @@ import { balanceAccountsDescription } from './resources/balance-accounts';
 import { transactionRulesDescription } from './resources/transaction-rules';
 
 export class AdyenBalanceplatformservice implements INodeType {
-	description: INodeTypeDescription = {
-		displayName: 'Adyen Balanceplatformservice',
-		name: 'N8nDevAdyenBalanceplatformservice',
-		icon: { light: 'file:./adyen-balanceplatformservice.png', dark: 'file:./adyen-balanceplatformservice.dark.png' },
-		group: ['input'],
-		version: 1,
-		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Configuration API enables user onboarding, balance accounts, cards, and business accounts.',
-		defaults: { name: 'Adyen Balanceplatformservice' },
-		usableAsTool: true,
-		inputs: [NodeConnectionTypes.Main],
-		outputs: [NodeConnectionTypes.Main],
-		credentials: [
-			{
-				name: 'N8nDevAdyenBalanceplatformserviceApi',
-				required: true,
-			},
-		],
-		requestDefaults: {
-			baseURL: '={{\$credentials.url}}',
-			headers: {
-				Accept: 'application/json',
-				'Content-Type': 'application/json',
-			},
-		},
-		properties: [
+        description: INodeTypeDescription = {
+                displayName: 'Adyen Balanceplatformservice',
+                name: 'N8nDevAdyenBalanceplatformservice',
+                icon: { light: 'file:./adyen-balanceplatformservice.png', dark: 'file:./adyen-balanceplatformservice.dark.png' },
+                group: ['input'],
+                version: 1,
+                subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
+                description: 'Configuration API enables user onboarding, balance accounts, cards, and business accounts.',
+                defaults: { name: 'Adyen Balanceplatformservice' },
+                usableAsTool: true,
+                inputs: [NodeConnectionTypes.Main],
+                outputs: [NodeConnectionTypes.Main],
+                credentials: [
+                        {
+                                name: 'N8nDevAdyenBalanceplatformserviceApi',
+                                required: true,
+                        },
+                ],
+                requestDefaults: {
+                        baseURL: '={{\$credentials.url}}',
+                        headers: {
+                                Accept: 'application/json',
+                                'Content-Type': 'application/json',
+                        },
+                },
+                properties: [
 		{
 			"displayName": "Resource",
 			"name": "resource",
@@ -99,6 +99,6 @@ export class AdyenBalanceplatformservice implements INodeType {
 		...bankAccountValidationDescription,
 		...balanceAccountsDescription,
 		...transactionRulesDescription
-		],
-	};
+                ],
+        };
 }
